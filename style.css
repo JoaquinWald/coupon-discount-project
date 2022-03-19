@@ -1,0 +1,141 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-size: 62.5%;
+  font-family: 'DM Sans', sans-serif;
+}
+/* Sección HEADER --------------------------------*/
+/*------------------Parte del NAV---------------- */
+nav{
+  width: 100%;
+  min-width: 320px;
+  margin: 0 auto;
+}
+.main-nav-ul{
+  margin-top: 0px;
+  list-style: none;
+  padding-left: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background: linear-gradient(90deg, rgba(180,58,81,1) 0%, rgba(204,24,24,1) 52%, rgba(252,176,69,1) 100%);
+}
+.main-nav__item{
+  display: inline-block;
+}
+.main-nav__item a{
+  color: white;
+  padding: 5px;
+  border-radius: 2px;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+.main-nav__item a:hover{
+  color: blue;
+}
+.main-nav__item a:active{
+  color: red;
+}
+.main-nav__item a::after{
+  content: " | ";
+}
+/* ----------------------Fin NAV------------------------------- */
+
+
+/* -----------Parte del h1--------------- */
+h1{
+  color: wheat;
+  text-align: center;
+  padding: 4rem 3rem;
+  margin-top: 0.5rem;
+  background: linear-gradient(90deg, rgba(180,58,81,1) 0%, rgba(204,24,24,1) 52%, rgba(252,176,69,1) 100%);
+  border-top: solid white 0.1rem;
+}
+/* -----------Fin h1 y header--------------------- */
+
+
+/* --------Inputs price and coupons---------- */
+.inputs-section label{
+  font-size: 1.5rem;
+  display: inline-block;
+}
+.inputs-section input{
+  font-size: 1.5rem;
+}
+.input-price-product{
+  width: 100%;
+  margin-top: 3rem;
+  padding: 1rem 4rem;
+  text-align: center;
+}
+.button-input__price{
+  position: absolute;
+  left: calc(50% - 160px);
+  display: block;
+  background: linear-gradient(90deg, rgba(180,58,81,1) 0%, rgba(69,41,46,0) 0%, rgba(232,208,208,1) 0%, rgba(252,170,69,0.5858718487394958) 97%);
+  border: solid 0.1rem;
+  margin-top: 3rem;
+  padding: 1rem;
+  margin: 0.5rem 6rem 0.5rem 5rem;
+  border-radius: 0.5rem;
+}
+
+.input-coupon-discount{
+  width: 100%;
+  margin-top: 7rem;
+  padding: 1rem 4rem;
+  text-align: center;
+}
+.button-input__discount{
+  position: absolute;
+  left: calc(50% - 160px);
+  display: block;
+  background: linear-gradient(90deg, rgba(180,58,81,1) 0%, rgba(69,41,46,0) 0%, rgba(232,208,208,1) 0%, rgba(252,170,69,0.5858718487394958) 97%);
+  border: solid 0.1rem;
+  margin-top: 3rem;
+  padding: 1rem;
+  margin: 0.5rem 6rem 0.5rem 5rem;
+  border-radius: 0.5rem;
+}
+/* ------------Fin inputs---------------- */
+
+
+/* ------------Button--------------- */
+.button-class{
+  position: relative;
+  margin-top: 7rem;
+  display: block;
+  left: calc(50% - 130px);
+  border-radius: 2rem;
+  background: linear-gradient(90deg, rgba(180,58,81,1) 0%, rgba(69,41,46,0) 0%, rgba(255,0,0,0.5718662464985995) 0%, rgba(252,170,69,0.5858718487394958) 97%);
+  padding: 1rem;
+  font-size: 1.7rem;
+  font-weight: bold;
+  border: solid 0.1rem black;
+
+}
+.button-class:hover{
+  color:white;
+}
+/* ------------Fin button------------- */
+
+
+/* ----------Sección del resultado <p> del descuento----------- */
+.parrafo-resultado{
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 1.5rem;
+}
+
+/* --------Sección nombres cupones------- */
+.section-coupons-names{
+  margin-top: 6rem;
+  text-align: center;
+}
+.section-coupons-names p{
+  font-size: 1.2rem;
+
+}
