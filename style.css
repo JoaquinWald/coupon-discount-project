@@ -105,17 +105,16 @@ h1{
 
 /* ------------Button--------------- */
 .button-class{
-  position: relative;
+  position: absolute;
   margin-top: 7rem;
   display: block;
-  left: calc(50% - 130px);
+  left: calc(50% - 125px);
   border-radius: 2rem;
   background: linear-gradient(90deg, rgba(180,58,81,1) 0%, rgba(69,41,46,0) 0%, rgba(255,0,0,0.5718662464985995) 0%, rgba(252,170,69,0.5858718487394958) 97%);
   padding: 1rem;
   font-size: 1.7rem;
   font-weight: bold;
   border: solid 0.1rem black;
-
 }
 .button-class:hover{
   color:white;
@@ -127,15 +126,15 @@ h1{
 .parrafo-resultado{
   text-align: center;
   font-size: 2rem;
-  margin-top: 1.5rem;
+  margin-top: 12rem;
 }
 
 /* --------Sección nombres cupones------- */
 .section-coupons-names{
-  margin-top: 6rem;
-  text-align: center;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  text-align: left;
 }
 .section-coupons-names p{
   font-size: 1.2rem;
-
 }
