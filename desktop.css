@@ -1,0 +1,8 @@
+.button-class{
+  width: 20%;
+  left: calc(50% - 130px);
+}
+
+.parrafo-resultado{
+  left: calc(50% - 445px);
+}
