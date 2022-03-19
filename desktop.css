@@ -4,5 +4,6 @@
 }
 
 .parrafo-resultado{
-  left: calc(50% - 445px);
+  left: calc(50% - 126px);
+  width: 20%;
 }

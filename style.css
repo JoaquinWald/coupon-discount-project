@@ -109,6 +109,7 @@ h1{
   position: absolute;
   width: 65%;
   max-width: 25rem;
+  min-width: 20rem;
   /* align-content: center; */
   justify-content: center;
   margin-top: 7rem;
@@ -129,15 +130,19 @@ h1{
 
 /* ----------Sección del resultado <p> del descuento----------- */
 .parrafo-resultado{
+  display: flex;
   position: absolute;
   width: 65%;
+  max-width: 25rem;
+  min-width: 20rem;
+  justify-content: center;
   height: 30px;
-  left: calc(50% - 129px);
+  left: calc(50% - 126px);
   text-align: center;
   font-size: 2rem;
   margin-top: 13rem;
   /* margin-left: 10rem; */
-  /* padding: 2rem; */
+  padding: 0.3rem;
   /* border: solid 0.1rem rgba(180,58,81,1); */
   border-radius: 0.6rem;
 }
@@ -148,7 +153,9 @@ h1{
   margin-left: 8.4rem;
   text-align: left;
 }
+h3{
+  font-size: 2rem;
+}
 .section-coupons-names p{
-  font-size: 1rem;
-  font-weight: bold;
+  font-size: 1.5rem;
 }
