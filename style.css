@@ -105,9 +105,10 @@ h1{
 
 /* ------------Button--------------- */
 .button-class{
-  display: flex;
+  /* display: flex; */
   position: absolute;
-  width: 65%;
+  top: 350px;
+  width: 250px;
   max-width: 25rem;
   min-width: 20rem;
   /* align-content: center; */
