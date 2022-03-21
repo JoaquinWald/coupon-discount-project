@@ -73,7 +73,7 @@ h1{
 }
 .button-input__price{
   position: absolute;
-  left: calc(50% - 157px);
+  left: calc(50% - 165px);
   display: block;
   background: linear-gradient(90deg, rgba(180,58,81,1) 0%, rgba(69,41,46,0) 0%, rgba(232,208,208,1) 0%, rgba(252,170,69,0.5858718487394958) 97%);
   border: solid 0.1rem;
@@ -91,7 +91,7 @@ h1{
 }
 .button-input__discount{
   position: absolute;
-  left: calc(50% - 157px);
+  left: calc(50% - 165px);
   display: block;
   background: linear-gradient(90deg, rgba(180,58,81,1) 0%, rgba(69,41,46,0) 0%, rgba(232,208,208,1) 0%, rgba(252,170,69,0.5858718487394958) 97%);
   border: solid 0.1rem;
